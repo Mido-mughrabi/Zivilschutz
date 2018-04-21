@@ -15,6 +15,7 @@ public class Main {
 	}
 	
 	public void updatePerson(Person person) {
+		 
 		int n=0;
 		for(Person person1:persons) {
 			if(person1.equals(person))break;
