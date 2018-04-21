@@ -2,16 +2,16 @@ package model;
 
 public class Person {
 	private String call_number;
-	private String surname;
+	private String Surname;
 	private int[] additional_qualification = new int[4];
-	private int[] functions = new int[3];
+	private int[] Functions = new int[3];
 	private int[] unit_type = new int[2];
 	
-	public Person(String call_number, String surname, int[] functions, int[] unit_type, int[] additional_qualification) {
+	public Person(String call_number, String Surname, int[] Functions, int[] unit_type, int[] additional_qualification) {
 		this.setCall_number(call_number);
-		this.setSurname(surname);
+		this.setSurname(Surname);
 		this.setAdditional_qualification(additional_qualification);
-		this.setFunctions(functions);
+		this.setFunctions(Functions);
 		this.setUnit_type(unit_type);
 	}
 
@@ -24,11 +24,11 @@ public class Person {
 	}
 
 	public String getSurname() {
-		return this.surname;
+		return this.Surname;
 	}
 
 	public void setSurname(String surname) {
-		this.surname = surname;
+		this.Surname = surname;
 	}
 
 	public int[] getAdditional_qualification() {
@@ -40,11 +40,11 @@ public class Person {
 	}
 
 	public int[] getFunctions() {
-		return functions;
+		return Functions;
 	}
 
 	public void setFunctions(int[] functions) {
-		functions = functions;
+		Functions = functions;
 	}
 
 	public int[] getUnit_type() {
