@@ -13,6 +13,7 @@ enum unit_types{
 };
 
 public class Person {
+	
 	private String call_number;
 	private String surname;
 	private int[] additional_qualification = new int[4];
@@ -24,9 +25,8 @@ public class Person {
 		this.setAdditional_qualification(additional_qualification);
 		this.setfunction(function);
 		this.setunit_type(unit_type);
-		
-		
 	}
+	
 
 	public String getCall_number() {
 		return call_number;
