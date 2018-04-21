@@ -15,13 +15,13 @@ enum unit_types{
 public class Person {
 	
 	private String call_number;
-	private String surname;
+	private String Surname;
 	private int[] additional_qualification = new int[4];
 	functions function;
 	unit_types unit_type;
 	public Person(String call_number, String surname, functions function,  unit_types unit_type, int[] additional_qualification) {
 		this.setCall_number(call_number);
-		this.setSurname(surname);
+		this.setSurname(Surname);
 		this.setAdditional_qualification(additional_qualification);
 		this.setfunction(function);
 		this.setunit_type(unit_type);
@@ -37,11 +37,11 @@ public class Person {
 	}
 
 	public String getSurname() {
-		return this.surname;
+		return this.Surname;
 	}
 
 	public void setSurname(String surname) {
-		this.surname = surname;
+		this.Surname = surname;
 	}
 
 	public int[] getAdditional_qualification() {
